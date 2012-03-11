@@ -1,4 +1,7 @@
 Parzival::Application.routes.draw do
+  root :to => 'pages#home'
+  post "/generate" => "pages#generate"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
