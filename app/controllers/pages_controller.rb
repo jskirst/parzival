@@ -5,7 +5,7 @@ class PagesController < ApplicationController
 	end
   
   def generate
-		@text = params[:text]
+		@text = params[:text].chomp.gsub(/[\n\r]/,"")
     logger.debug "PROCESSING BEGUN"
     @raw_questions = ""
     cmd = 'java -Xmx1200m -cp question-generation.jar edu/cmu/ark/QuestionAsker --model models/linear-regression-ranker-reg500.ser.gz --just-wh --max-length 20 --text "'+@text+'"'

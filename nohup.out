@@ -1,0 +1,4364 @@
+/var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:234:in `load': /home/ubuntu/parzival/config/initializers/session_store.rb:3: syntax error, unexpected ':', expecting $end (SyntaxError)
+...sion_store :cookie_store, key: '_parzival_session'
+                              ^
+	from /var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:234:in `load'
+	from /var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:640:in `new_constants_in'
+	from /var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /var/lib/gems/1.8/gems/activesupport-3.1.2/lib/active_support/dependencies.rb:234:in `load'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/engine.rb:556
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/engine.rb:555:in `each'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/engine.rb:555
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/initializable.rb:30:in `instance_exec'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/initializable.rb:30:in `run'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/initializable.rb:55:in `run_initializers'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/initializable.rb:54:in `each'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/initializable.rb:54:in `run_initializers'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/application.rb:96:in `initialize!'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/railtie/configurable.rb:30:in `send'
+	from /var/lib/gems/1.8/gems/railties-3.1.2/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/ubuntu/parzival/config/environment.rb:5
+	from /home/ubuntu/parzival/config.ru:4:in `require'
+	from /home/ubuntu/parzival/config.ru:4
+	from /var/lib/gems/1.8/gems/rack-1.3.6/lib/rack/builder.rb:51:in `instance_eval'
+	from /var/lib/gems/1.8/gems/rack-1.3.6/lib/rack/builder.rb:51:in `initialize'
+	from /home/ubuntu/parzival/config.ru:1:in `new'
+	from /home/ubuntu/parzival/config.ru:1
+=> Booting WEBrick
+=> Rails 3.1.2 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+[2012-03-12 16:26:12] INFO  WEBrick 1.3.1
+[2012-03-12 16:26:12] INFO  ruby 1.9.2 (2012-02-14) [x86_64-linux]
+[2012-03-12 16:26:12] INFO  WEBrick::HTTPServer#start: pid=28703 port=3000
+=> Booting WEBrick
+=> Rails 3.1.2 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Mar 12, 2012 4:26:58 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 16:26:53 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Will Robinson is in danger."}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is Will Robinson in?Who is in danger?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (5.5ms)
+Completed 200 OK in 12163ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 5:55:36 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 17:55:35 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 4014ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 5:56:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 17:56:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 20623ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:00:50 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:00:48 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15427ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:02:28 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:02:27 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15393ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:03:01 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:03:00 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15026ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:03:27 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:03:26 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15063ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:16:08 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:16:07 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3801ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:18:47 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:18:46 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3810ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:20:26 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:20:25 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3588ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:21:24 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@56406199
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:21:23 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3884ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:33:06 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:33:05 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3930ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:33:49 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `trim' for #<String:0x00000003da1530>):
+  app/controllers/pages_controller.rb:8:in `generate'
+
+Rendered /home/ubuntu/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/ubuntu/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/ubuntu/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+Mar 12, 2012 6:36:29 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:36:28 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3785ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:36:33 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:36:32 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics:?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 9822ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:38:07 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:38:06 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 4014ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:38:12 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:38:11 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics: Bacardi IBA Christian Delpech IBA 2005 Blue Hawaii undefined?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 11026ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:38:23 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:38:22 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 19444ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:38:43 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:38:42 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14398ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:38:58 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:38:57 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 4058ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:39:02 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:39:01 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 21178ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:39:24 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:39:23 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13388ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:39:38 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:39:37 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n   "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13820ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:39:52 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:39:51 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 18996ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:40:12 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:40:11 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14822ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:41:07 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:41:05 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3846ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:41:11 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:41:10 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics: Bacardi IBA Christian Delpech IBA 2005 Blue Hawaii undefined?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 10884ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:41:23 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:41:21 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 18871ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:41:42 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:41:41 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14518ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:41:57 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:41:56 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3823ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:42:01 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:42:00 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 21185ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:42:23 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:42:22 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13337ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:42:37 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:42:36 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n   "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13835ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:42:51 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:42:50 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 20020ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:43:12 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:43:10 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15267ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:44:45 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:44:44 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3537ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:44:52 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:44:51 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics: Bacardi IBA Christian Delpech IBA 2005 Blue Hawaii undefined?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 11194ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:45:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:45:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 18986ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:45:23 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:45:22 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14693ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:45:38 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:45:37 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.4ms)
+Completed 200 OK in 3979ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:45:43 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:45:42 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 20515ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:46:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:46:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13485ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:46:18 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:46:17 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n   "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 13296ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:46:32 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:46:31 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 19820ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:46:52 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:46:51 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15124ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:53:25 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:53:24 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3597ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:53:30 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:53:29 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics: Bacardi IBA Christian Delpech IBA 2005 Blue Hawaii undefined?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 10857ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:53:41 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:53:40 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 19111ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:54:01 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:54:00 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15274ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:54:17 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:54:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3870ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:54:25 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:54:24 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 20332ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:54:50 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:54:49 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13500ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:55:08 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:55:07 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n   "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13525ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:55:22 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:55:21 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 19544ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:55:43 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:55:42 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15917ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:55:59 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:55:59 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3756ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:56:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:56:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 20867ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:56:26 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:56:25 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13659ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:56:41 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:56:40 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n      Brass Monkey   undefined          For other uses, see Brass Monkey (disambiguation). \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+For other uses, what do brass Monkey undefined see?For other uses, what see Brass Monkey?What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14632ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:56:57 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:56:56 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Brass Monkey  is a name given to a number of different cocktail recipes. As with many lesser-known cocktails that are named after colloquial expressions, there are some wildly differing recipes that share the same name. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a name given to a number of different cocktail recipes?What is Brass Monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13097ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:11 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:10 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"It can refer to a cocktail consisting of equal parts beer, usually Olde English 800, and orange juice, or to a mixture of gin, triple sec, tequila, orange juice, sour mix and grapefruit juice, or to a mixture of rum, vodka and orange juice (with or without Galliano). "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3444ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:16 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:15 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"An alternative version of the brass monkey is a 40-ounce bottle of malt liquor that has been consumed to the top of the label and then filled with orange juice. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is an alternative version of the brass monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14213ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:31 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:30 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There was a premixed cocktail called \"Brass Monkey\" produced by the Heublein Company in the 1970s, 1980s and 1990s. It was fairly inexpensive and provided a portable alternative to regular mixed drinks. Heublein was based in Stamford, Connecticut, and had production facilities in the Hartford, Connecticut area. Brass Monkey was available in bottles from half pint up to 750 mL. At the time that  Brass Monkey  was released, liquor stores carried mostly beer, wine, and hard alcohol; there were very few premixed alternatives. The drink was named by Steve Doniger, an advertising executive, after an alleged World War II spy, named H. E. Rasske. Sales and popularity of Heublein's \"Brass Monkey\" increased in the 1980s after the release of the Beastie Boys song with the same title as the beverage. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3913ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:37 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:35 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"In 1982, the R. J. Reynolds Tobacco Company acquired Heublein Inc. for $1.4 billion dollars. RJR Nabisco sold the division to Grand Metropolitan in 1987. Grand Metropolitan merged with Guinness to form Diageo in 1997. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who merged with Guinness to form Diageo in 1997?Who did Grand Metropolitan merge with to form Diageo in 1997?Who sold the division to Grand Metropolitan in 1987?When did Grand Metropolitan merge with Guinness to form Diageo?What did Grand Metropolitan merge with Guinness to form in 1997?Who did RJR Nabisco sell the division to in 1987?When did RJR Nabisco sell the division to Grand Metropolitan?What did RJR Nabisco sell to Grand Metropolitan in 1987?When did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for. 4 billion dollars?What did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for in 1982?Who did the R. J. Reynolds Tobacco Company acquire for. 4 billion dollars in 1982?What acquired Heublein Inc. for. 4 billion dollars in 1982?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.4ms)
+Completed 200 OK in 11490ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+sh: Syntax error: Unterminated quoted string
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:51 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"After several years of absence from the market the Brass Monkey premixed cocktail has recently been re-released as  The Club\" Brass Monkey . Produced by The Club Distilling Company of Stamford Ct. Brass Monkey is currently sold in liquor stores along with other premixed alcoholic beverages under the name  The Club Cocktails  owned by Diageo. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 147ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+sh: Syntax error: "(" unexpected
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:52 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The drink was the inspiration to the popular old school hip-hop tune \"Brass Monkey (song)\", released by the Beastie Boys in 1987. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 115ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:54 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:53 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n    For other uses, see Brass Monkey (disambiguation). \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 4082ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:57:59 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:57:58 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Brass Monkey  is a name given to a number of different cocktail recipes. As with many lesser-known cocktails that are named after colloquial expressions, there are some wildly differing recipes that share the same name. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a name given to a number of different cocktail recipes?What is Brass Monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12912ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:58:13 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:12 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"It can refer to a cocktail consisting of equal parts beer, usually Olde English 800, and orange juice, or to a mixture of gin, triple sec, tequila, orange juice, sour mix and grapefruit juice, or to a mixture of rum, vodka and orange juice (with or without Galliano). "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 3627ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:58:18 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:17 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"An alternative version of the brass monkey is a 40-ounce bottle of malt liquor that has been consumed to the top of the label and then filled with orange juice. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is an alternative version of the brass monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.6ms)
+Completed 200 OK in 14747ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:58:37 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:36 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There was a premixed cocktail called \"Brass Monkey\" produced by the Heublein Company in the 1970s, 1980s and 1990s. It was fairly inexpensive and provided a portable alternative to regular mixed drinks. Heublein was based in Stamford, Connecticut, and had production facilities in the Hartford, Connecticut area. Brass Monkey was available in bottles from half pint up to 750 mL. At the time that  Brass Monkey  was released, liquor stores carried mostly beer, wine, and hard alcohol; there were very few premixed alternatives. The drink was named by Steve Doniger, an advertising executive, after an alleged World War II spy, named H. E. Rasske. Sales and popularity of Heublein's \"Brass Monkey\" increased in the 1980s after the release of the Beastie Boys song with the same title as the beverage. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3941ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:58:42 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:41 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"In 1982, the R. J. Reynolds Tobacco Company acquired Heublein Inc. for $1.4 billion dollars. RJR Nabisco sold the division to Grand Metropolitan in 1987. Grand Metropolitan merged with Guinness to form Diageo in 1997. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who merged with Guinness to form Diageo in 1997?Who did Grand Metropolitan merge with to form Diageo in 1997?Who sold the division to Grand Metropolitan in 1987?When did Grand Metropolitan merge with Guinness to form Diageo?What did Grand Metropolitan merge with Guinness to form in 1997?Who did RJR Nabisco sell the division to in 1987?When did RJR Nabisco sell the division to Grand Metropolitan?What did RJR Nabisco sell to Grand Metropolitan in 1987?When did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for. 4 billion dollars?What did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for in 1982?Who did the R. J. Reynolds Tobacco Company acquire for. 4 billion dollars in 1982?What acquired Heublein Inc. for. 4 billion dollars in 1982?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 12065ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+sh: Syntax error: Unterminated quoted string
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:54 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"After several years of absence from the market the Brass Monkey premixed cocktail has recently been re-released as  The Club\" Brass Monkey . Produced by The Club Distilling Company of Stamford Ct. Brass Monkey is currently sold in liquor stores along with other premixed alcoholic beverages under the name  The Club Cocktails  owned by Diageo. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 147ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+sh: Syntax error: "(" unexpected
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:55 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The drink was the inspiration to the popular old school hip-hop tune \"Brass Monkey (song)\", released by the Beastie Boys in 1987. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 175ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:58:58 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:58:57 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n      Bumbo   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.4ms)
+Completed 200 OK in 3405ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:59:02 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:59:01 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Bumbo  (also known as  Bombo  or  Bumboo ) is a drink made from rum, water, sugar and nutmeg. Cinnamon is sometimes substituted for or added to the nutmeg. Modern Bumbo is often made with dark rum, citrus juice, Grenadine and nutmeg. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who is often made with dark rum, citrus juice, Grenadine and nutmeg?Who is a drink made from rum, water, sugar and nutmeg?What is Modern Bumbo often made with?What is sometimes substituted for or added to the nutmeg?What is Bumbo?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 14196ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:59:17 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:59:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A related drink is the Traitor, made with orange juice, rum, honey and nutmeg, mixed and heated. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who is made with orange juice, rum, honey and nutmeg?What is the Traitor mixed and heated?What is the Traitor made with?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12070ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 6:59:31 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 18:59:30 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Bumbo was popular in the Caribbean during the era of piracy, largely because it tasted better than Royal Navy Grog. [  citation needed  ]  Pirates and short-haul merchantmen did not suffer from scurvy as often as British sailors, largely because their voyages were shorter and their diet included plenty of fresh fruit and vegetables. This meant that citrus juice could be dropped from the grog recipe, and sugar and nutmeg sweetened the mix. [  citation needed  ]  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+When was Bumbo popular in the Caribbean?When tasted better than Royal Navy Grog?Who was popular in the Caribbean during the era of piracy?What was Bumbo popular in during the era of piracy?What meant that citrus juice could be dropped from the grog recipe?What tasted better than Royal Navy Grog?What did the era of piracy taste better than?Who did not suffer from scurvy as often as British sailors?What did pirates and short-haul merchantmen not suffer from as often as British sailors?What sweetened the mix?What did sugar and nutmeg sweeten?Who did pirates and short-haul merchantmen not suffer from scurvy as often as?Whose voyages were shorter?What were shorter?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 29766ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:00:02 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:00:01 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Bumbo was commonly used during election campaigns in colonial British America, to the extent that treating voters to gifts and other freebies during election campaigns was referred to as \"swilling the planters with bumbo\". George Washington was particularly noted for using this technique. His papers state that he used 160 gallons of rum to treat 391 voters to bumbo during campaigning for the Virginia House of Burgesses in July 1758. \r\n   \r\n \r\n\r\n\r\n "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who was commonly used during election campaigns in colonial British America?What was Bumbo commonly used during?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15391ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:00:18 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:00:17 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n      Caribou Lou   Caribou Lou          This article is about the type of mixed drink.  For other uses, see Highball (disambiguation). \r\n \r\n  \r\n \r\n   \r\nSheet music cover for a 1915 song by William J. McKenna celebrating the drink \r\n \r\n "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What cover for a 1915 song by William J. McKenna celebrating the drink?What is about the type of mixed drink?What do sheet music cover for?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 11557ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:00:31 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:00:30 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Highball  is the name for a family of mixed drinks that are composed of an alcoholic base spirit and a larger proportion of a non-alcoholic mixer. Originally, the most common highball was made with Scotch whisky and carbonated water, which is today called a \"Scotch and Soda\". "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is Highball?When is Scotch whisky and carbonated water called a Scotch?What is today called a Scotch?What was made with Scotch whisky and carbonated water?What was the most common highball made with?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 16467ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:00:48 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:00:47 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There are many rivals for the fame of mixing the first highball, including the Adams House in Boston. New York barman Patrick Duffy claimed the highball was brought to the U.S. in 1894 from England by actor E. J. Ratcliffe. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who claimed the highball was brought to the U. S. in 1894 from England by actor E. J. Ratcliffe?What did New York barman Patrick Duffy claim to?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14727ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:01:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:01:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Online Etymology Dictionary suggests that the name originated around 1898 and probably derives from  ball  meaning a \"drink of whiskey\" and  high  because it is served in a tall glass. The name may refer to the practice of serving drinks in the dining cars of trains powered by steam locomotives, when the engine would get up to speed and the ball that showed boiler pressure was at its high level, known as \"highballing\". Or the name may have come from the railroad signal meaning \"clear track ahead.\" "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What does the Online Etymology Dictionary suggest that the name originated around 1898 and probably derives from ball meaning?What suggests that the name originated around 1898 and probably derives from ball meaning a drink?What does the Online Etymology Dictionary suggest from?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 11147ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:01:25 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:01:24 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Well-known examples of highballs include Bourbon and Coke, Cuba Libre, Scotch and Soda, Seven and Seven, the Moscow Mule, and gin and tonic. A highball is typically served in large straight-sided glass, for example, a highball glass or a Collins glass, with ice. \r\n   Highballs  \r\n\r\n \r\n\r\n \r\n \r\n bourbon whiskey, ginger ale or soda and twist of lemon \r\n \r\n \r\n\r\n \r\n \r\n 1½ parts 151 rum, 1 part Malibu rum, and 5 parts pineapple juice \r\n \r\n \r\n\r\n \r\n \r\n white rum, cola, and lime \r\n \r\n \r\n\r\n \r\n \r\n dark rum and ginger beer \r\n \r\n \r\n\r\n \r\n \r\n Canadian whisky, ginger ale \r\n \r\n \r\n\r\n \r\n \r\n gin and tonic water. \r\n \r\n \r\n\r\n \r\n \r\n traditionally gin, now often vodka, and grapefruit juice. With a salted rim, it is instead called a salty dog. \r\n \r\n \r\n\r\n \r\n \r\n Jack Daniel's Tennessee Whiskey and Coca-Cola. \r\n \r\n \r\n\r\n \r\n \r\n orange juice and rum \r\n \r\n \r\n\r\n \r\n \r\n gin and grapefruit soda or grapefruit juice \r\n \r\n \r\n\r\n \r\n \r\n vodka, ginger beer, and lime, served in a copper mug \r\n \r\n \r\n\r\n \r\n \r\n Pimm's No.1 Cup, and ginger ale, lemon-lime soft drink, or carbonated water. \r\n \r\n \r\n\r\n \r\n \r\n Pisco, cola, and ice \r\n \r\n \r\n\r\n \r\n \r\n rum and Coca-Cola. \r\n \r\n \r\n\r\n \r\n \r\n orange juice and vodka \r\n \r\n \r\n\r\n \r\n \r\n Seagram's 7 whisky and 7 Up, garnished with a lemon wedge \r\n \r\n \r\n\r\n \r\n \r\n tequila, tonic water, and lemon or lime wedges \r\n \r\n \r\n\r\n \r\n \r\n Jack Daniel's Tennessee Whiskey, sweetened tea, ice, and lemon. \r\n \r\n \r\n\r\n \r\n \r\n vodka and club soda \r\n \r\n \r\n\r\n \r\n \r\n a variation of a Vodka Soda, made of one part Mountain Dew and one part cotton candy flavored Vodka. \r\n \r\n   \r\n\r\n\r\n\r\n \r\n\r\n      Corn N' Oil   Cauliflower 'n' Corn Stuffed Collar...         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who do well-known examples of highballs include?What flavored Vodka?What is instead called a salty dog with a salted rim?What is grapefruit juice instead called with a salted rim?What is grapefruit juice instead called a salty dog with?What is typically served in large straight-sided glass?What is a highball glass or a Collins glass?What was made of one part?What is a highball typically served in?What was the variation made of?What is example?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 26503ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:01:53 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:01:52 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A  Corn N' Oil  is an alcoholic highball style cocktail most noted for its use of the very dark and oil-like blackstrap rum. While the origins of its name are largely unknown, it is making a resurgence in modern cocktail culture. \r\n   Variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is making a resurgence in modern cocktail culture?What is a Corn N ' Oil?What are largely unknown?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14756ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:02:17 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:02:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Variations of the  Corn N' Oil  include varying the ratios of rum to falernum as well as the addition of Angostura bitters. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What include varying the ratios of rum to falernum as well as the addition of Angostura bitters?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12440ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:02:31 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:02:29 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n    \r\n\r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.1ms)
+Completed 200 OK in 3198ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:24:28 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:24:27 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"\r\n  \r\n  \r\n   \r\n     Section 5: Cocktails with rum \r\n    "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3605ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:24:33 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:24:32 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"This section will include questions on the following topics: \r\n     \r\n      \r\n      \r\n      \r\n      \r\n      \r\n      \r\n     \r\n   \r\n   \r\n     Bacardi  IBA   Christian Delpech IBA 2005            Blue Hawaii   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will include questions on the following topics: Bacardi IBA Christian Delpech IBA 2005 Blue Hawaii undefined?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 10907ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:24:54 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:24:53 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 21403ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:25:17 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:25:15 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15167ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:25:33 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@56406199
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:25:32 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3894ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:25:38 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:25:37 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.4ms)
+Completed 200 OK in 20568ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:26:02 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:26:01 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14155ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:26:17 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:26:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n   "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13276ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:26:31 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:26:30 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The  Blue Hawaii  is a tropical cocktail made of rum, pineapple juice, blue Curacao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail that contains creme of coconut instead of sweet and sour mix, and never includes vodka. \r\n\r\n   History and Popularity  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is the Blue Hawaii as well?What should the Blue Hawaii not be confused with?What is the Blue Hawaii a tropical cocktail made of as well?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 19229ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:26:52 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:26:51 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Blue Hawaii was invented in 1957 by Harry Yee, legendary head bartender of the Hilton Hawaiian Village in Waikiki, Hawaii when a sales representative of Dutch distiller Bols asked him to design a drink that featured their blue color of Curaçao liqueur. After experimenting with several variations he settled on a version somewhat different than the most popular version today, but with the signature blue color, pineapple wedge, and cocktail umbrella. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who settled on a version somewhat different than the most popular version today?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14951ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:27:11 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:27:10 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The name \"Blue Hawaii\" is related only indirectly to the 1961 Elvis Presley film of the same name, and apparently derives instead from the film's title song, a hit composed by Leo Robin for the 1937 Bing Crosby film  Waikiki Wedding . It was Yee who named the drink which, along with the films and songs, many other tropical drinks he invented, and tiki bars such as Trader Vic, did much to popularize a faux Hawaiian tiki culture, both in Hawaii itself and on the Mainland. The era was immediately pre-statehood, a time when Hawaii was thought of by most Americans as playground for the rich. Tourism and development was already significant, but all centered around Waikiki and at only a small fraction of today's levels – about 100,000 visitors per year then, compared to seven million today. \r\n   Preparation and variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3692ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:27:19 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:27:18 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A blue Hawaii is typically served on the rocks. As with most tropical drinks, there are many variations in preparation, presentation, and ingredients. Hence, it is often blended with ice, margarita-like, to be served as a frozen cocktail. Many variations of glassware are used, the more whimsical the better: tiki mugs, cocktail glasses, parfait glasses, or carved out coconuts or pineapples. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a blue Hawaii typically served on?What are used, the more whimsical mugs, cocktail glasses, or carved out coconuts or pineapples?What are parfait glasses?What are many variations of glassware used, ?What is typically served on the rocks?What are cocktail glasses?What is often blended with ice?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 20775ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:27:50 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:27:49 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The base liquor is usually light rum but vodka may be partially or completely substituted as a matter of taste. Similarly, a flavored rum or vodka such as Malibu Rum may eliminate the need for crème of coconut, or the coconut flavor may be omitted entirely (coconut milk, a very different product, should  not  be used). Even the pineapple juice is sometimes left out in favor of sour mix. The only constant, in fact, is the name and the blue Curaçao. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is sometimes left out in favor of sour mix?What may be partially or completely substituted as a matter of taste?What is the pineapple juice sometimes left out in?What may vodka be partially or completely substituted as?What is usually light rum?What is the name and the blue Curaao?What is the only constant?What is the base liquor?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13869ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:28:05 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:28:04 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Because it is easy and inexpensive to make, it is often served as a punch. At its simplest, it is a bottle or two of plain or coconut-flavored light rum, a bottle of blue curacao, a can of pineapple juice, and a bag of ice, mixed together in a punchbowl. The Blue Hawaii is seasonal, often considered a summer or warm weather drink. Occasionally, because it contains yellow pineapple juice, the Blue Hawaii will be a lovely shade of green. \r\n   \r\n \r\n\r\n\r\n \r\n   \r\n \r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n      Brass Monkey   undefined          For other uses, see Brass Monkey (disambiguation). \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+For other uses, what do brass Monkey undefined see?For other uses, what see Brass Monkey?What will the Blue Hawaii be a lovely shade of?What contains yellow pineapple juice?What will be a lovely shade of green?What does the Blue Hawaii contain?What will the Blue Hawaii be?What is often served as a punch?What is seasonal?What is easy and inexpensive to make?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14398ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:28:20 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:28:19 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Brass Monkey  is a name given to a number of different cocktail recipes. As with many lesser-known cocktails that are named after colloquial expressions, there are some wildly differing recipes that share the same name. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a name given to a number of different cocktail recipes?What is Brass Monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 12969ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:28:38 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:28:37 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"It can refer to a cocktail consisting of equal parts beer, usually Olde English 800, and orange juice, or to a mixture of gin, triple sec, tequila, orange juice, sour mix and grapefruit juice, or to a mixture of rum, vodka and orange juice (with or without Galliano). "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3356ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:28:42 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:28:41 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"An alternative version of the brass monkey is a 40-ounce bottle of malt liquor that has been consumed to the top of the label and then filled with orange juice. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is an alternative version of the brass monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14201ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:28:58 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:28:57 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There was a premixed cocktail called \"Brass Monkey\" produced by the Heublein Company in the 1970s, 1980s and 1990s. It was fairly inexpensive and provided a portable alternative to regular mixed drinks. Heublein was based in Stamford, Connecticut, and had production facilities in the Hartford, Connecticut area. Brass Monkey was available in bottles from half pint up to 750 mL. At the time that  Brass Monkey  was released, liquor stores carried mostly beer, wine, and hard alcohol; there were very few premixed alternatives. The drink was named by Steve Doniger, an advertising executive, after an alleged World War II spy, named H. E. Rasske. Sales and popularity of Heublein's \"Brass Monkey\" increased in the 1980s after the release of the Beastie Boys song with the same title as the beverage. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.4ms)
+Completed 200 OK in 4347ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:03 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:02 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"In 1982, the R. J. Reynolds Tobacco Company acquired Heublein Inc. for $1.4 billion dollars. RJR Nabisco sold the division to Grand Metropolitan in 1987. Grand Metropolitan merged with Guinness to form Diageo in 1997. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who merged with Guinness to form Diageo in 1997?Who did Grand Metropolitan merge with to form Diageo in 1997?Who sold the division to Grand Metropolitan in 1987?When did Grand Metropolitan merge with Guinness to form Diageo?What did Grand Metropolitan merge with Guinness to form in 1997?Who did RJR Nabisco sell the division to in 1987?When did RJR Nabisco sell the division to Grand Metropolitan?What did RJR Nabisco sell to Grand Metropolitan in 1987?When did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for. 4 billion dollars?What did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for in 1982?Who did the R. J. Reynolds Tobacco Company acquire for. 4 billion dollars in 1982?What acquired Heublein Inc. for. 4 billion dollars in 1982?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12320ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+sh: Syntax error: Unterminated quoted string
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"After several years of absence from the market the Brass Monkey premixed cocktail has recently been re-released as  The Club\" Brass Monkey . Produced by The Club Distilling Company of Stamford Ct. Brass Monkey is currently sold in liquor stores along with other premixed alcoholic beverages under the name  The Club Cocktails  owned by Diageo. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+sh: Syntax error: "(" unexpected
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The drink was the inspiration to the popular old school hip-hop tune \"Brass Monkey (song)\", released by the Beastie Boys in 1987. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 147ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:20 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:19 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n    For other uses, see Brass Monkey (disambiguation). \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 4059ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:25 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:24 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Brass Monkey  is a name given to a number of different cocktail recipes. As with many lesser-known cocktails that are named after colloquial expressions, there are some wildly differing recipes that share the same name. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is a name given to a number of different cocktail recipes?What is Brass Monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 13496ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:40 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:38 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"It can refer to a cocktail consisting of equal parts beer, usually Olde English 800, and orange juice, or to a mixture of gin, triple sec, tequila, orange juice, sour mix and grapefruit juice, or to a mixture of rum, vodka and orange juice (with or without Galliano). "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3660ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:44 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:43 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"An alternative version of the brass monkey is a 40-ounce bottle of malt liquor that has been consumed to the top of the label and then filled with orange juice. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is an alternative version of the brass monkey?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14188ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:29:59 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:29:58 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There was a premixed cocktail called \"Brass Monkey\" produced by the Heublein Company in the 1970s, 1980s and 1990s. It was fairly inexpensive and provided a portable alternative to regular mixed drinks. Heublein was based in Stamford, Connecticut, and had production facilities in the Hartford, Connecticut area. Brass Monkey was available in bottles from half pint up to 750 mL. At the time that  Brass Monkey  was released, liquor stores carried mostly beer, wine, and hard alcohol; there were very few premixed alternatives. The drink was named by Steve Doniger, an advertising executive, after an alleged World War II spy, named H. E. Rasske. Sales and popularity of Heublein's \"Brass Monkey\" increased in the 1980s after the release of the Beastie Boys song with the same title as the beverage. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3861ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:30:04 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:03 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"In 1982, the R. J. Reynolds Tobacco Company acquired Heublein Inc. for $1.4 billion dollars. RJR Nabisco sold the division to Grand Metropolitan in 1987. Grand Metropolitan merged with Guinness to form Diageo in 1997. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who merged with Guinness to form Diageo in 1997?Who did Grand Metropolitan merge with to form Diageo in 1997?Who sold the division to Grand Metropolitan in 1987?When did Grand Metropolitan merge with Guinness to form Diageo?What did Grand Metropolitan merge with Guinness to form in 1997?Who did RJR Nabisco sell the division to in 1987?When did RJR Nabisco sell the division to Grand Metropolitan?What did RJR Nabisco sell to Grand Metropolitan in 1987?When did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for. 4 billion dollars?What did the R. J. Reynolds Tobacco Company acquire Heublein Inc. for in 1982?Who did the R. J. Reynolds Tobacco Company acquire for. 4 billion dollars in 1982?What acquired Heublein Inc. for. 4 billion dollars in 1982?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 12165ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+sh: Syntax error: Unterminated quoted string
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:16 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"After several years of absence from the market the Brass Monkey premixed cocktail has recently been re-released as  The Club\" Brass Monkey . Produced by The Club Distilling Company of Stamford Ct. Brass Monkey is currently sold in liquor stores along with other premixed alcoholic beverages under the name  The Club Cocktails  owned by Diageo. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 117ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+sh: Syntax error: "(" unexpected
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:17 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The drink was the inspiration to the popular old school hip-hop tune \"Brass Monkey (song)\", released by the Beastie Boys in 1987. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 177ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:30:19 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:18 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n      Bumbo   undefined         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 3922ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:30:24 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:23 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Bumbo  (also known as  Bombo  or  Bumboo ) is a drink made from rum, water, sugar and nutmeg. Cinnamon is sometimes substituted for or added to the nutmeg. Modern Bumbo is often made with dark rum, citrus juice, Grenadine and nutmeg. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who is often made with dark rum, citrus juice, Grenadine and nutmeg?Who is a drink made from rum, water, sugar and nutmeg?What is Modern Bumbo often made with?What is sometimes substituted for or added to the nutmeg?What is Bumbo?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 13988ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:30:39 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:38 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A related drink is the Traitor, made with orange juice, rum, honey and nutmeg, mixed and heated. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who is made with orange juice, rum, honey and nutmeg?What is the Traitor mixed and heated?What is the Traitor made with?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12462ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:30:53 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:30:52 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Bumbo was popular in the Caribbean during the era of piracy, largely because it tasted better than Royal Navy Grog. [  citation needed  ]  Pirates and short-haul merchantmen did not suffer from scurvy as often as British sailors, largely because their voyages were shorter and their diet included plenty of fresh fruit and vegetables. This meant that citrus juice could be dropped from the grog recipe, and sugar and nutmeg sweetened the mix. [  citation needed  ]  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+When was Bumbo popular in the Caribbean?When tasted better than Royal Navy Grog?Who was popular in the Caribbean during the era of piracy?What was Bumbo popular in during the era of piracy?What meant that citrus juice could be dropped from the grog recipe?What tasted better than Royal Navy Grog?What did the era of piracy taste better than?Who did not suffer from scurvy as often as British sailors?What did pirates and short-haul merchantmen not suffer from as often as British sailors?What sweetened the mix?What did sugar and nutmeg sweeten?Who did pirates and short-haul merchantmen not suffer from scurvy as often as?Whose voyages were shorter?What were shorter?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 26986ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:31:21 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:31:20 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Bumbo was commonly used during election campaigns in colonial British America, to the extent that treating voters to gifts and other freebies during election campaigns was referred to as \"swilling the planters with bumbo\". George Washington was particularly noted for using this technique. His papers state that he used 160 gallons of rum to treat 391 voters to bumbo during campaigning for the Virginia House of Burgesses in July 1758. \r\n   \r\n \r\n\r\n\r\n "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who was commonly used during election campaigns in colonial British America?What was Bumbo commonly used during?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15086ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:31:40 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:31:39 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"  \r\n\r\n\r\n\r\n \r\n\r\n      Caribou Lou   Caribou Lou          This article is about the type of mixed drink.  For other uses, see Highball (disambiguation). \r\n \r\n  \r\n \r\n   \r\nSheet music cover for a 1915 song by William J. McKenna celebrating the drink \r\n \r\n "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What cover for a 1915 song by William J. McKenna celebrating the drink?What is about the type of mixed drink?What do sheet music cover for?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.3ms)
+Completed 200 OK in 11714ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:31:53 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:31:52 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>" Highball  is the name for a family of mixed drinks that are composed of an alcoholic base spirit and a larger proportion of a non-alcoholic mixer. Originally, the most common highball was made with Scotch whisky and carbonated water, which is today called a \"Scotch and Soda\". "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is Highball?When is Scotch whisky and carbonated water called a Scotch?What is today called a Scotch?What was made with Scotch whisky and carbonated water?What was the most common highball made with?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 16293ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:32:10 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:32:09 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"There are many rivals for the fame of mixing the first highball, including the Adams House in Boston. New York barman Patrick Duffy claimed the highball was brought to the U.S. in 1894 from England by actor E. J. Ratcliffe. "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who claimed the highball was brought to the U. S. in 1894 from England by actor E. J. Ratcliffe?What did New York barman Patrick Duffy claim to?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 15243ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:32:26 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:32:25 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"The Online Etymology Dictionary suggests that the name originated around 1898 and probably derives from  ball  meaning a \"drink of whiskey\" and  high  because it is served in a tall glass. The name may refer to the practice of serving drinks in the dining cars of trains powered by steam locomotives, when the engine would get up to speed and the ball that showed boiler pressure was at its high level, known as \"highballing\". Or the name may have come from the railroad signal meaning \"clear track ahead.\" "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What does the Online Etymology Dictionary suggest that the name originated around 1898 and probably derives from ball meaning?What suggests that the name originated around 1898 and probably derives from ball meaning a drink?What does the Online Etymology Dictionary suggest from?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 11262ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:32:42 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:32:40 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Well-known examples of highballs include Bourbon and Coke, Cuba Libre, Scotch and Soda, Seven and Seven, the Moscow Mule, and gin and tonic. A highball is typically served in large straight-sided glass, for example, a highball glass or a Collins glass, with ice. \r\n   Highballs  \r\n\r\n \r\n\r\n \r\n \r\n bourbon whiskey, ginger ale or soda and twist of lemon \r\n \r\n \r\n\r\n \r\n \r\n 1½ parts 151 rum, 1 part Malibu rum, and 5 parts pineapple juice \r\n \r\n \r\n\r\n \r\n \r\n white rum, cola, and lime \r\n \r\n \r\n\r\n \r\n \r\n dark rum and ginger beer \r\n \r\n \r\n\r\n \r\n \r\n Canadian whisky, ginger ale \r\n \r\n \r\n\r\n \r\n \r\n gin and tonic water. \r\n \r\n \r\n\r\n \r\n \r\n traditionally gin, now often vodka, and grapefruit juice. With a salted rim, it is instead called a salty dog. \r\n \r\n \r\n\r\n \r\n \r\n Jack Daniel's Tennessee Whiskey and Coca-Cola. \r\n \r\n \r\n\r\n \r\n \r\n orange juice and rum \r\n \r\n \r\n\r\n \r\n \r\n gin and grapefruit soda or grapefruit juice \r\n \r\n \r\n\r\n \r\n \r\n vodka, ginger beer, and lime, served in a copper mug \r\n \r\n \r\n\r\n \r\n \r\n Pimm's No.1 Cup, and ginger ale, lemon-lime soft drink, or carbonated water. \r\n \r\n \r\n\r\n \r\n \r\n Pisco, cola, and ice \r\n \r\n \r\n\r\n \r\n \r\n rum and Coca-Cola. \r\n \r\n \r\n\r\n \r\n \r\n orange juice and vodka \r\n \r\n \r\n\r\n \r\n \r\n Seagram's 7 whisky and 7 Up, garnished with a lemon wedge \r\n \r\n \r\n\r\n \r\n \r\n tequila, tonic water, and lemon or lime wedges \r\n \r\n \r\n\r\n \r\n \r\n Jack Daniel's Tennessee Whiskey, sweetened tea, ice, and lemon. \r\n \r\n \r\n\r\n \r\n \r\n vodka and club soda \r\n \r\n \r\n\r\n \r\n \r\n a variation of a Vodka Soda, made of one part Mountain Dew and one part cotton candy flavored Vodka. \r\n \r\n   \r\n\r\n\r\n\r\n \r\n\r\n      Corn N' Oil   Cauliflower 'n' Corn Stuffed Collar...         "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+Who do well-known examples of highballs include?What flavored Vodka?What is instead called a salty dog with a salted rim?What is grapefruit juice instead called with a salted rim?What is grapefruit juice instead called a salty dog with?What is typically served in large straight-sided glass?What is a highball glass or a Collins glass?What was made of one part?What is a highball typically served in?What was the variation made of?What is example?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 26868ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:33:09 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:33:08 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"A  Corn N' Oil  is an alcoholic highball style cocktail most noted for its use of the very dark and oil-like blackstrap rum. While the origins of its name are largely unknown, it is making a resurgence in modern cocktail culture. \r\n   Variations  "}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What is making a resurgence in modern cocktail culture?What is a Corn N ' Oil?What are largely unknown?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 14974ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:33:25 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
+
+
+Started POST "/generate" for 71.71.40.151 at 2012-03-12 19:33:24 +0000
+  Processing by PagesController#generate as */*
+  Parameters: {"text"=>"Variations of the  Corn N' Oil  include varying the ratios of rum to falernum as well as the addition of Angostura bitters. \r\n   \r\n"}
+WARNING: Can't verify CSRF token authenticity
+PROCESSING BEGUN
+app
+config
+config.ru
+db
+doc
+Gemfile
+Gemfile.lock
+lib
+log
+nohup.out
+Parzival.pem
+parzival.ppk
+public
+qg
+Rakefile
+README
+run.sh
+script
+test
+tmp
+vendor
+What include varying the ratios of rum to falernum as well as the addition of Angostura bitters?
+PROCESSING COMPLETE.
+Rendered pages/generate.json.erb (0.2ms)
+Completed 200 OK in 12539ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+Mar 12, 2012 7:33:39 PM net.didion.jwnl.util.MessageLog doLog
+INFO: Installing dictionary net.didion.jwnl.dictionary.FileBackedDictionary@522a4983
