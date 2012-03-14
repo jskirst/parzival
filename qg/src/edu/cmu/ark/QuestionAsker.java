@@ -184,22 +184,21 @@ public class QuestionAsker {
 				//now print the questions
 				//double featureValue;
 				for(Question question: outputQuestionList){
-					if(question.getTree().getLeaves().size() > maxLength){
-						continue;
-					}
-					if(justWH && question.getFeatureValue("whQuestion") != 1.0){
-						continue;
-					}
-					System.out.print(question.yield());
+					if(question.getTree().getLeaves().size() > maxLength){ continue; }
+					if(justWH && question.getFeatureValue("whQuestion") != 1.0){ continue; }
+					
+          System.out.print(question.yield());
           System.out.print("\t"+AnalysisUtilities.getCleanedUpYield(question.getSourceTree()));
 					Tree ansTree = question.getAnswerPhraseTree();
 					System.out.print("\t");
 					if(ansTree != null){
 						System.out.print(AnalysisUtilities.getCleanedUpYield(question.getAnswerPhraseTree()));
 					}
-					System.out.print("="+question.getScore()+";");
+          System.out.print("\t");
+					System.out.print(question.getScore());
 					//System.err.println("Answer depth: "+question.getFeatureValue("answerDepth"));
-					//System.out.println();
+					System.out.print("???");
+          System.out.println();
 				}
 			
 				//if(GlobalProperties.getDebug()) System.err.println("Seconds Elapsed Total:\t"+((System.currentTimeMillis()-startTime)/1000.0));
