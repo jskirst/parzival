@@ -21,19 +21,13 @@
 //	  mheilman@cmu.edu
 //	  http://www.cs.cmu.edu/~mheilman
 
-
-
 package edu.cmu.ark;
-
 import java.io.*;
 //import java.text.NumberFormat;
 import java.util.*;
-
 //import weka.classifiers.functions.LinearRegression;
-
 //import edu.cmu.ark.ranking.WekaLinearRegressionRanker;
 import edu.stanford.nlp.trees.Tree;
-
 
 /**
  * Wrapper class for outputting a (ranked) list of questions given an entire document,
@@ -54,26 +48,14 @@ import edu.stanford.nlp.trees.Tree;
  *
  */
 public class QuestionAsker {
-
-
-	public QuestionAsker(){
-	}
 	
-	
-	
-	
-	/**
-	 * @param args
-	 */
+  public QuestionAsker(){}
+  
 	public static void main(String[] args) {
 		QuestionTransducer qt = new QuestionTransducer();
 		InitialTransformationStep trans = new InitialTransformationStep();
-		QuestionRanker qr = null;
-		
-		
+		QuestionRanker qr = null;		
 		qt.setAvoidPronounsAndDemonstratives(false);
-		
-		//pre-load
 		AnalysisUtilities.getInstance();
 		
     String input_text = null;
@@ -124,7 +106,6 @@ public class QuestionAsker {
 				input_text = new String(args[i+1]);
 				i++;
 			}
-      
 		}
 		//System.err.println("Hello world.");
 		qt.setAvoidPronounsAndDemonstratives(dropPro);
@@ -139,7 +120,6 @@ public class QuestionAsker {
 		
 		try{
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-			
 			if(GlobalProperties.getDebug()) System.err.println("\nInput Text:");
 			String doc;
       
@@ -150,25 +130,17 @@ public class QuestionAsker {
         
         if(input_text == null){
           buf = br.readLine();
-          if(buf == null){
-            break;
-          }
+          if(buf == null){ break; }
           doc += buf;
           
           while(br.ready()){
             buf = br.readLine();
-            if(buf == null){
-              break;
-            }
-            if(buf.matches("^.*\\S.*$")){
-              doc += buf + " ";
-            }else{
-              doc += "\n";
-            }
+            if(buf == null){ break;}
+            
+            if(buf.matches("^.*\\S.*$")) { doc += buf + " ";}
+            else { doc += "\n"; }
           }
-          if(doc.length() == 0){
-            break;
-          }
+          if(doc.length() == 0){ break; }
         } else {
           doc = input_text;
         }
@@ -219,11 +191,11 @@ public class QuestionAsker {
 						continue;
 					}
 					System.out.print(question.yield());
-					if(printVerbose) System.out.print("\t"+AnalysisUtilities.getCleanedUpYield(question.getSourceTree()));
+          System.out.print("\t"+AnalysisUtilities.getCleanedUpYield(question.getSourceTree()));
 					Tree ansTree = question.getAnswerPhraseTree();
-					if(printVerbose) System.out.print("\t");
+					System.out.print("\t");
 					if(ansTree != null){
-						if(printVerbose) System.out.print(AnalysisUtilities.getCleanedUpYield(question.getAnswerPhraseTree()));
+						System.out.print(AnalysisUtilities.getCleanedUpYield(question.getAnswerPhraseTree()));
 					}
 					System.out.print("="+question.getScore()+";");
 					//System.err.println("Answer depth: "+question.getFeatureValue("answerDepth"));
